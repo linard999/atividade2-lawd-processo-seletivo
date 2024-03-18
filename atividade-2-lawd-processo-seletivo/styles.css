@@ -1,0 +1,362 @@
+@media only screen and (min-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+        text-align: left;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px 96px 48px 96px;
+    }
+
+    header img {
+        width: auto;
+        height: 32px;
+        position: relative;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 12px 12px 12px 12px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+
+    .main {
+        display: flex;
+        flex: 1;
+    }
+
+    main {
+        color: black;
+        padding: 48px 96px 48px 96px;
+    }
+
+    .titulo {
+        font-size: 64px;
+        font-weight: 500;
+    }
+
+    .subtitulo {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    .container {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .botao_comecar {
+        color: white;
+        background-color: #4891FF;
+        height: auto;
+        padding: 16px 32px 16px 32px;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 32px;
+    }
+
+    .botao_agendar {
+        color: black;
+        background-color: #F5F5F5;
+        padding: 16px 32px 16px 32px;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 32px;
+    }
+
+    .img_principal {
+        width: 1267px;
+        margin-bottom: 64px;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .texto_maior {
+        font-size: 48px;
+        font-weight: 500;
+    }
+
+    .texto_menor {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .bloco {
+        width: 513px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .imagem_bloco {
+        width: 728px;
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 96px;
+    }
+
+    .linha_bloco {
+        color: black;
+        height: 20px;
+        width: 513px;
+    }
+
+    .texto_bloco_titulo {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .texto_bloco_subtitulo {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .texto_bloco_normal {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .texto_bloco_normal_negrito {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 96px 48px 96px 48px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .footerbar {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footerbar_coluna {
+        flex-basis: 25%;
+        padding: 10px;
+    }
+
+    .footerbar_coluna img {
+        width: 304px;
+    }
+
+    .footer_logo {
+        margin-bottom: 24px;
+    }
+
+    .footerbar_coluna h3 {
+        width: fit-content;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    ul li {
+        list-style: none;
+        margin-bottom: 12px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        align-items: center;
+        padding: 12px 24px 12px 24px;
+    }
+
+    header img {
+        width: auto;
+        height: 32px;
+        position: relative;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 4px 4px 4px 4px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+
+    main {
+        color: black;
+        padding: 12px 24px 12px 24px;
+    }
+
+    .titulo {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .container {
+        column-gap: 10px;
+    }
+
+    .botao_comecar {
+        color: white;
+        background-color: #4891FF;
+        height: auto;
+        padding: 16px 32px 16px 32px;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 32px;
+    }
+
+    .botao_agendar {
+        color: black;
+        background-color: #F5F5F5;
+        padding: 16px 32px 16px 32px;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 32px;
+    }
+
+    .img_principal {
+        width: 350px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .texto_maior {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .texto_menor {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .bloco {
+        width: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .imagem_bloco {
+        width: 350px;
+        height: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .linha_bloco {
+        color: black;
+        height: 20px;
+        width: 513px;
+    }
+
+    .texto_bloco_titulo {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .texto_bloco_subtitulo {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .texto_bloco_normal {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .texto_bloco_normal_negrito {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 48px 24px 48px 24px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .footerbar {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footerbar_coluna {
+        flex-basis: 25%;
+        padding: 10px;
+    }
+
+    .footerbar_coluna img {
+        width: 304px;
+    }
+
+    .footer_logo {
+        margin-bottom: 24px;
+    }
+
+    .footerbar_coluna h3 {
+        width: fit-content;
+        margin-bottom: 24px;
+        position: relative;
+    }
+
+    ul li {
+        list-style: none;
+        margin-bottom: 12px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+    }
+}
